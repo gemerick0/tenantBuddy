@@ -1,0 +1,3 @@
+[submodule "front-end_not_integrated"]
+	path = front-end_not_integrated
+	url = https://github.com/gemerick0/tenantBuddy
