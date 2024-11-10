@@ -1,0 +1,538 @@
+{
+    "Infestation": {
+        "Cockroaches": [
+            123,
+            7321,
+            2825,
+            123
+        ],
+        "Rats": [
+            0,
+            12,
+            155,
+            155,
+            46834,
+            425,
+            123,
+            1000,
+            1459350,
+            2244,
+            123,
+            123,
+            950
+        ],
+        "Bats": [],
+        "Flies": [],
+        "Woodworm": [
+            155250
+        ],
+        "Moth": [],
+        "Bookworm": [],
+        "Termites": [
+            155250,
+            3500
+        ]
+    },
+    "UnlawfulRentIncrease": {
+        "_0_10percent": [
+            0,
+            7596,
+            0,
+            8357,
+            2009,
+            7321,
+            0,
+            2825,
+            123,
+            123,
+            123,
+            2250,
+            468684
+        ],
+        "_10_20percent": [
+            4686,
+            200,
+            0,
+            1500,
+            0,
+            123,
+            24347,
+            0,
+            2244,
+            123,
+            3350
+        ],
+        "_20_30percent": [
+            1171,
+            0,
+            0,
+            123,
+            0,
+            123
+        ],
+        "_30_40percent": [
+            0,
+            1500,
+            0,
+            0,
+            123
+        ],
+        "_40_50percent": [
+            0,
+            0,
+            0,
+            123
+        ],
+        "_50_60percent": [
+            0,
+            1500,
+            0,
+            0,
+            123
+        ],
+        "_60_70percent": [
+            0,
+            0,
+            0,
+            123
+        ],
+        "_70_80percent": [
+            0,
+            0,
+            0,
+            123
+        ],
+        "_80_90percent": [
+            0,
+            0,
+            8357,
+            0,
+            123
+        ],
+        "_90_pluspercent": [
+            0,
+            1500,
+            2317,
+            0,
+            46834,
+            0,
+            123
+        ]
+    },
+    "Harassment": {
+        "Humiliation": [],
+        "sexual_abuse": [],
+        "verbal_threats": [
+            11016,
+            7321
+        ],
+        "written_threats": [],
+        "discrimination": [],
+        "racism": [],
+        "xenophobia": [],
+        "denying_rent": [
+            2825,
+            2244,
+            123,
+            123,
+            468684
+        ],
+        "shutting_utilities": [
+            1000
+        ],
+        "lockouts": [],
+        "entering_unit_without_notice": [
+            7321,
+            123,
+            123,
+            3350,
+            1200
+        ]
+    },
+    "PropertyDamage": {
+        "window_broken": [
+            295,
+            46834,
+            31050
+        ],
+        "water_leak": [
+            850,
+            6717,
+            295,
+            280,
+            123,
+            46834,
+            7321,
+            425,
+            2825,
+            123,
+            2484,
+            2244,
+            123,
+            123,
+            3350,
+            400
+        ],
+        "gas_leak": [],
+        "leaky_roof": [
+            0,
+            6717,
+            46834,
+            7321,
+            123,
+            25
+        ],
+        "damage_on_ceiling": [
+            6717,
+            295,
+            7321,
+            155250,
+            2244,
+            123,
+            25
+        ],
+        "infiltration": [
+            6717,
+            46834,
+            200
+        ]
+    },
+    "Mold": {
+        "bathroom": [
+            0,
+            1200,
+            400,
+            6717,
+            0,
+            295,
+            280,
+            123,
+            1,
+            46834,
+            10,
+            7321,
+            425,
+            2825,
+            123,
+            155250,
+            0,
+            2244,
+            123,
+            123,
+            3350,
+            1400
+        ],
+        "bedroom": [
+            6717,
+            0,
+            0
+        ],
+        "kitchen": [
+            1800,
+            6717,
+            0,
+            46834,
+            123,
+            2484,
+            0
+        ],
+        "level_of_unusability": [
+            5,
+            5,
+            7,
+            10,
+            123,
+            10,
+            7321,
+            25,
+            123,
+            7,
+            40,
+            2244,
+            123
+        ],
+        "living_room": [
+            400,
+            6717,
+            1293,
+            295,
+            7321,
+            155250,
+            7050
+        ]
+    },
+    "AppliancesBroken": {
+        "heater_broken": [
+            850,
+            1100,
+            100,
+            80,
+            6717,
+            123,
+            46834,
+            7321,
+            425,
+            2825,
+            123,
+            27894,
+            2244,
+            123,
+            123,
+            3350,
+            400
+        ],
+        "lights_broken": [
+            733,
+            150,
+            80,
+            6717,
+            46834,
+            7321,
+            123
+        ],
+        "lock_broken": [
+            80,
+            6717,
+            295,
+            31050
+        ],
+        "ac_broken": [],
+        "broken_wiring": [
+            80
+        ]
+    },
+    "NotFollowingRequiredStandards": {
+        "insufficient_heating": [
+            0,
+            733,
+            6717,
+            7321,
+            190,
+            27894,
+            2244,
+            123,
+            200
+        ],
+        "bad_water_quality": [
+            1100,
+            1100,
+            123,
+            7321,
+            2825,
+            123,
+            27894,
+            2244,
+            123,
+            123,
+            3350,
+            95663
+        ],
+        "smoking_around_unit": [
+            8039,
+            8039,
+            425,
+            2244
+        ],
+        "no_emergency_services": [
+            6717,
+            7321,
+            155250
+        ]
+    },
+    "SummaryOfDecision": [
+        "The hearing officer ruled in favor of the tenant, awarding them a rent reduction due to unlawful rent increases, and a rent reduction due to the landlord\u2019s failure to make necessary repairs and maintain a habitable premises. The hearing officer ordered the landlord to repay the tenant $7,015.18 for unlawful rent, and $5,850.00 in rent reduction due to failure to maintain a habitable premises and reduction in housing services. Additionally, the hearing officer ordered the landlord to replace the bathtub, shower, and sinks in the bathroom within 30 days of this order becoming final.  The hearing officer also ordered the landlord to reimburse the tenant $400.00 for a plumbing invoice which the tenant was improperly charged for and which the hearing officer ruled was the responsibility of the landlord.",
+        "The Hearing Officer awarded a rent rebate of $1,100.00 for the hot water issues from 12/1/2022 to 4/30/2023, and a daily rent rebate of $7.33/day beginning 5/1/2023 until the issues are resolved.",
+        "The court ruled in favor of the tenant. The tenant was awarded $3,000 in damages for the mold and $1,000 in damages for the landlord shutting off the utilities. The court also ordered the landlord to pay the tenant\u2019s legal fees. The total compensation was $4,000. The tenant was deemed to have a significant problem with mold, and they were entitled to a large amount of compensation.  ",
+        "Petitioner was entitled to a ten percent (10%) downward adjustment of rent due and a rent refund. Petitioner\u2019s Rent is $2,200.00 per month, and assessing the ten percent (10%) reduction, Petitioner is entitled to a rent credit of $7.33 per day or $220.00 per month since December 1, 2022, for each day the minimum water temperature requirement is not met. As of April 30, 2023, the aggregate figure is $1,100.00.",
+        "The hearing officer decided that the tenant was owed $400 for the mold in the bathroom, $400 for the mold in the living room, $80 for the broken wiring, $80 for the heater being broken, $80 for the lights being broken, and $80 for the lock being broken. The landlord was ordered to pay $2,800 in total for the repairs.",
+        "The hearing officer found that the landlord had committed several violations of the CSFRA.  The officer ruled that the 2021 rent increase was unlawful and ordered the landlord to pay the tenant $1,500 for the difference between the rent paid and the unlawful rent demanded.  The officer also found that the landlord had failed to maintain the rental unit in a habitable condition.  The officer ordered the landlord to make the necessary repairs to the unit and ordered the landlord to pay the tenant $6,717 in damages for the failure to maintain the unit in a habitable condition. The officer also ordered the landlord to pay the total amount owed to the tenant, $8,217.06, through rent credits, over a period of 11 months.",
+        "The Hearing Officer determined that the landlord had not substantially complied with the CSFRA and was not entitled to increase rent. The tenant was entitled to a refund of the excess rent paid since May 1, 2022. The landlord was ordered to pay $2,317.66 in rent overpayments.",
+        "The Petitioner is entitled to a twenty-five percent (25%) total reduction of the monthly maximum lawful rent for the Property for that period. The reduction reflects an awarded reduction of twenty percent (20%) for the presence of mold in the garage and the likely presence in the living room and a five percent (5%) reduction for the intrusion of water into the living room. The Petitioner is entitled to a rent refund of $1,293.00 for the excess Rent he paid to Respondent between December 12, 2022, through January 31, 2023.",
+        "The Hearing Officer decided that the respondent incorrectly calculated the Base Rent for the initial term of the tenant\u2019s lease and that the rent increases on June 1, 2022 and September 1, 2022 were unlawful. The Hearing Officer ordered the respondent to refund the tenant $1,349.08, and ordered the tenant to pay a balance due to the respondent of $542.19.  The Hearing Officer also ordered the respondent to apply the $806.89 owed to the tenant as a credit against the tenant\u2019s rent for January 2023.",
+        "The Hearing Officer found that Respondent had unlawfully demanded and retained rent in excess of the amount permitted by the CSFRA because Respondent did not properly roll back the rent for the Affected Unit to its level on October 19, 2015, as required by CSFRA Sections 1702(b)(1) and 1706(a), and did not properly refund Petitioner the amount of the unlawful rent collected due to the improper rent rollback. The Hearing Officer further concluded that the rent increase imposed by Respondent effective September 1, 2018 was unlawful pursuant to CSFRA Sections 1706(a) and (b) and 1707(a) because it did not use the correct Base Rent and that all subsequent rent increases were unlawful. Respondent was required to refund Petitioner $8,357.18 in unlawfully collected rent for December 23, 2016 through December 31, 2023. The Hearing Officer also concluded that Respondent acted in contravention of CSFRA Section 1710(b)(1), California Health and Safety Code Section 17920.3(c), and Mountain View Municipal Code, Ch. 21, Art. II, Section 21.56 by allowing tenants of the Property to smoke in their rental units with resultant secondhand smoke drifting into the Petitioner\u2019s unit and affecting Petitioner\u2019s health, welfare and safety, entitling Petitioner to a total rent refund of $8,039.90 for the period between March 15, 2019 and the date of the HO Decision. The Hearing Officer also found that the Respondent failed to maintain the Property in a habitable condition by allowing a rodent infestation to continue for over two years and was liable for a total refund of $155.37. The Hearing Officer further concluded that Respondent violated CSFRA Section 1710(b)(1), California Health and Safety Code Section 17920.3(a)(10), and International Property Maintenance Code Section 402.3 by failing to remediate inadequate lighting in the parking lot for over 17 months and was liable to Petitioner for a total refund of $1,052.25. The Hearing Officer also found that Respondent failed to maintain the Property in a habitable condition by not promptly installing a new door lock and dead bolt after an attempted break-in at Petitioner\u2019s unit and was liable for a total refund of $295.00. The Hearing Officer concluded that Respondent failed to maintain the Property in habitable condition by permitting an inordinate amount of bulky trash to remain on the Property over a period of almost four years and was liable for a total refund of $2,179.51. The Hearing Officer also found that there was a reduction in housing services due to Respondent\u2019s failure to keep the swimming pool clean and sanitary for several months each year over the course of four years and that the Respondent was liable for a total refund of $1,872.00 for the closures in 2019, 2020, 2021, 2022 and 2023. The Hearing Officer further concluded that Respondent improperly reduced housing services by closing the laundry rooms on the premises for four months due to vandalism and vagrancy and that the Respondent was liable for a total refund of $441.92 for the period from June 3, 2022 through September 28, 2022. The Hearing Officer also found that Respondent\u2019s failure to remedy the nuisance behaviors and threatening behaviors of other tenants on the Property constitute a breach of the covenant of quiet enjoyment in Petitioner\u2019s Lease, which, being a benefit connected with the use or occupancy of the Affected Unit, constitutes a decrease in Housing Services pursuant to CSFRA Sections 1702(h) and 1710(c). As a result, Petitioner was entitled to a 20 percent reduction of the monthly rent for the 36-month period from December 20, 2020 through December 20, 2023, or a total refund of $11,016.00. The Hearing Officer concluded that the Respondent improperly decreased Housing Services by failing to have an on-site property manager from February 1, 2020 through February 28, 2022, and that Respondent was liable for a total refund of $1,522.10.",
+        "The Hearing Officer finds in favor of Petitioner and orders Respondent to refund to Petitioner $8,357.18 in unlawfully collected rent and $26,574.05 in damages due to habitability issues and decreased housing services. The Hearing Officer finds that Respondent is prohibited from issuing rent increases for Petitioner\u2019s apartment until all of the refunds are paid in full, and Respondent has complied with all of the provisions of the CSFRA.",
+        "The hearing officer decided that the landlord is not entitled to increase the rent because they have not registered the property with the Rent Stabilization Program. The hearing officer ruled that the landlord is not entitled to the increase of rent and that the tenant is entitled to the rent they have overpaid which totals $3,040.42. The hearing officer also made the landlord pay the additional amount overpaid for February 2023\u2019s rent and utilities.",
+        "The hearing officer found that the tenant's income was significantly below 120% of the median household income for Santa Clara County. The hearing officer also found that the landlord's noncompliance with registration requirements constituted substantial noncompliance with the CSFRA, precluding the landlord from instituting any rent increase, including banked increases, prior to October 10, 2022. The hearing officer awarded the tenant a rebate of the entire amount of the rent increase she paid from September 1 through October 9, 2022, and a reduction in her monthly rent obligation equivalent to the banked increases continuing thereafter until August 31, 2023.",
+        "The Hearing Officer found that the landlord failed to provide adequate heating in the tenant's bedrooms and bathrooms. The tenant was awarded a rent reduction of 30% for 90 days, totaling $2875.50.",
+        "The hearing officer decided in favor of the petitioner, finding that the respondent was responsible for the defects and the rent increase. They ordered the respondent to pay a rent refund of $46,834.50 and to reduce the monthly rent by $310.50 per month until all repairs are completed.",
+        "The Hearing Officer found that the minimum water temperature standard for residential properties is \u201cnot less than 110 degrees Fahrenheit\u201d and that the Respondent\u2019s failure to provide that temperature constituted a failure to maintain a habitable premises. Petitioner was entitled to an eight percent (8%) downward adjustment of rent and a rent refund of $2,640.00 for the 16-month period from December 2022 through March 2024.",
+        "The hearing officer ruled in favor of the tenants and ordered a rent rollback, totaling $7,321.44, for the period from September 26, 2022, to the date of the decision. The hearing officer recalculated the tenants' base rent to $2,632.83 and required the landlord to apply the rent rollback credit within 30 days after the decision becomes final. The landlord was also ordered to reduce the tenants' current monthly rent to the base rent set forth in the decision.",
+        "The Hearing Officer decided that the tenant was entitled to a $425/month rent reduction due to the water intrusion in the bedroom, a $50/month reduction due to the reduction in landscaping services, and a total refund of $24,347.67 for the period of unlawful rent retention.",
+        "The Hearing Officer found the Tenant was entitled to relief.  They were awarded a reduced rental obligation, and a rebate of all banked increases paid.  The Landlord was found in substantial noncompliance due to not registering properly under the CSFRA, making them unable to institute any rent increase.  The Tenant was awarded a rebate of the entire rent increase paid from September 1 through October 9.",
+        "The Hearing Officer determined that the Petitioner\u2019s income was below 100% of the AMI, and therefore, they qualified for relief from the banked increase. The Hearing Officer also found that the rent increase from $1,416.25 to $1,444.50 was not properly noticed and therefore invalid. The Hearing Officer ordered the Respondent to refund any overpayments made by the Petitioner and to implement a 5% rent increase, resulting in a new rent of $1,487.06.",
+        "The court decided to reduce the rent by $123 due to the issues listed in the complaint, including broken appliances, unauthorized entry, infestation, mold, water quality, and property damage.",
+        "The Court found that the landlord was liable for the rat infestation. The Court ordered the landlord to pay $1,000 in damages to the petitioner.",
+        "The Hearing Officer decided that the tenant was entitled to a total rent refund of $46,834.50 for the landlord's failure to maintain habitable premises and denied the tenant's request for a rent rebate and/or rent reduction based on a reduction of housing services.",
+        "The Hearing Officer concluded that the mold problem persisted after January 4, 2023 and was repaired by July 1, 2023. Tenants are entitled to a $7,050.60 rent refund from Landlord.",
+        "The Hearing Officer decided that the landlord was not entitled to increase the rent because they failed to register the property with the Rent Stabilization Program and failed to provide required notices. The Hearing Officer ordered the landlord to refund the overpaid rent in the amount of $2,209.00 and to make necessary repairs as outlined in the inspection report. The Hearing Officer also stated that the landlord must be in full compliance with the CSFRA before they can properly notice an increase for the overall rent.",
+        "The Landlord is ordered to pay the full amount owed for the rent refund, which is $177.11, to pay $20.84 owed for unlawful rent, and to pay $50.31 for the failure to refund the utilities overcharge. They are also ordered to pay $8.33 for the failure to timely refund the security deposit. The rent increase is invalidated and the rent is rolled back to $2,030.67. ",
+        "The Hearing Officer found that the landlord had incorrectly calculated the base rent by not basing it on the amount of rent actually demanded by the landlord and paid by the tenants for the initial term of the tenancy. The Hearing Officer also found that the landlord had unlawfully collected a pet deposit, and that pet rent should be considered as part of the base rent. Finally, the Hearing Officer found that the rent increases in 2022 and 2023 were unlawful and ordered the landlord to refund the tenants the total amount of $6,072.11 for the overpayment of rent and $500 for the pet deposit.",
+        "The Petitioner has met his burden to show an undue hardship would result if the banked rent increases were implemented this year. He is entitled to a credit of $199.50 ($99.75 for each of those two (2) months) for the overpayment of October and November 2022. Respondent is ordered to issue an appropriate credit to Petitioner within thirty (30) days of this decision being final.",
+        "The Hearing Officer found that the maximum legal rent chargeable for the Unit was $1,500 per month from the inception of the CSFRA in 2016 through at least April 1, 2023 due to Respondents' (and their predecessors') failure to register the Unit as required by the CSFRA. Respondents' assessment and collection of any sums over and above the maximum lawful rent for the Unit violated the CSFRA and must be refunded to Mr. Rivera. Mr. Rivera is entitled to a refund of all sums paid to Respondents or their predecessors in interest that were more than the $1,500 maximum lawful rent for the Unit for the period of March 15, 2019 through the date of this decision. It was ordered that Respondents must refund to Mr. Rivera the sum of $5,600.85, representing the amount of rent collected by Respondents and their predecessors in interest between June 1, 2021 and the date of this decision which exceeded the $1,500 maximum lawful rent for the Unit, the total amount of utilities payments made up for the period of May 1, 2019 to April 13, 2023 and an additional $350.00, the amount that they received as an increase to his security deposit in violation of CSFRA \u00a7 1706 subd. (c).",
+        "The Petitioner is entitled to a downward adjustment in rent to the correctly calculated  Base  Rent  of  Two  Thousand  Three  Hundred  Fifty-Eight  Dollars  and  Thirty-Three  Cents ($2,358.33.).  Petitioner was entitled to a rent refund of $4,686.84 for the 12-month period from September 2022 through August 2023, a rent refund of $1,171.71 for the 3-month period after she filed her petition, and a rent refund of $390.57 per month for any months after December 2023 for which she has paid or does pay more than the lawful Base Rent of $2,358.33.  The Petitioner is entitled to a rent refund in the amount of $956.63 for the period from October 2022 through the date of the hearing, plus any Utilities Charges paid to Respondent through the time that this decision is final. Respondent shall stop charging Petitioner for Utilities Charges upon this decision becoming final.  The Petitioner is entitled to a refund of $25.00 for an improperly charged NSF fee, a refund of $300.00 in improperly charged late fees, and a refund of any other late fees associated with nonpayment of Utilities Charges. Respondent shall correct the rent ledger and refund the NSF fee of $25.00 and any late fees actually paid by Petitioner for nonpayment of utilities through the time that this decision is final. Petitioner is entitled to a rent refund of $1,200.00 for the 12-month period from January 2023 through December 2023, a rent refund of $100 per month for any month since January 2024 that the bathtub, shower, and sink remained in disrepair, and an ongoing rent reduction of $100 per month for every month hereafter until the peeling bathtub, shower, and sinks are replaced. The sinks and bathtub must be replaced within thirty (30) days of this decision becoming final.  Petitioner is entitled to a rent refund of $200.00 for the 8-month period from May 1, 2023 through December 2023, rent refund of $25.00 per month for any month since January 2024 that the toilet and sinks have continued leaking, and an ongoing rent reduction of $25.00 per month for every month hereafter that the toilet and sinks are not replaced. Petitioner is entitled to a rent refund of $3,500.00 for the 35-month period from February 2021 through December 2023, rent refund of $100.00 per month for any month since January 2024 that Petitioner\u2019s access to her parking space has been obstructed by the dumpsters, and an ongoing rent reduction of $100.00 until such time that Petitioner is provided with proper access to her assigned parking spot at all times.  Petitioner is entitled a refund or credit of $400.00 for the remaining balance of plumbing bill (after the $450.00 credit posted in February 2023). Petitioner is entitled to a rent refund of $950.00 for the 19-month period from June 2022 through December 2023, a rent refund of $50.00 per month for every month since January 2024 that the laundry facilities have been inaccessible, unsafe or unsanitary, and an ongoing rent reduction of $50.00 per month until fully accessible, clean and safe laundry facilities are provided."
+    ],
+    "SummaryOfComplaint": [
+        "The tenant is requesting a rent reduction due to the landlord\u2019s failure to make necessary repairs and maintain a habitable premises and is also requesting a reduction in rent due to the imposition of an unlawful rent increase. Specifically, the tenant is complaining about peeling reglazed surfaces in the bathroom (tub, shower, sinks), a leaky toilet and sink, a plumbing invoice that the tenant disputes as they feel that it\u2019s the landlord\u2019s responsibility, an overflowing dumpster that attracts rodents and vermin, a broken laundry room that is often unavailable for the tenant\u2019s use, a broken pool gate that causes the pool to be shut down frequently, and a lack of communication from the landlord regarding the tenant\u2019s attempts to report issues. ",
+        "Tenant was experiencing hot water issues from 12/1/2022, persisting for 5 months, and then continuing hot water issues beginning 5/1/2023. ",
+        "The tenant complained about a significant mold issue in the bathroom and kitchen. The tenant was forced to move out due to the mold. The tenant also complained about the landlord shutting off the utilities, which was a retaliatory measure. ",
+        "The petition requested a downward adjustment of rent and rent refund on the basis that the Respondent had failed to maintain a habitable premises due to a lack of hot water at the Property, in violation of the Community Stabilization and Fair Rent Act (\u201cCSFRA\u201d). Specifically, the Petition alleged that beginning in November 2022, the temperature of the hot water at the Property was regularly below that required by California health and safety codes.",
+        "The tenant complained that the landlord did not adequately and timely address the following maintenance and repair issues: 1) Master bathroom (a) walls have peeling paint and (b) mold has grown around the toilet and toilet pipe/wall joint, 2) Second bathroom (a) bathtub silicon sealer is worn off, (b) bathtub sliding door rubber missing causing mold around the tub, and (c) mold is growing on the ceiling, causing danger and an unpleasant smell, 3) Livingroom and Kitchen (a) flooring cracking, (b) stove doesn\u2019t work properly, (c) paint is peeling on the walls, and (d) the dishwasher does not work despite Respondent\u2019s repeated attempts to fix it.",
+        "The tenant is filing a petition for a downward rent adjustment because she alleges that the landlord has demanded rent in excess of what is lawful under the CSFRA. She is also filing a petition to adjust the rent downwards because she believes that the landlord has failed to maintain the rental unit in a habitable condition. The tenant alleges that she has been living in the unit since 2007 and the landlord has failed to make necessary repairs. She details several issues, including the presence of mold, an old and damaged carpet, non-functioning electrical outlets, non-functioning burners on the stovetop, a dilapidated refrigerator, non-functioning smoke detectors, a leaking shower, the presence of rats, a non-functioning heater, and non-functioning kitchen lights. She also claims that the landlord illegally increased her rent in 2021 and then again in 2023. The tenant believes that the landlord is trying to force her out of the unit by refusing to make repairs and by demanding excessive rent.",
+        "The tenant, Nwokidu, filed a petition against her landlord, Cervantes, claiming that he violated the Community Stabilization and Fair Rent Act (CSFRA) by failing to register the property and attempting to increase rent multiple times within a 12-month period.",
+        "The tenant filed a petition for a downward adjustment of rent based on failure to maintain a habitable premises due to a water leak and mold at the property. Specifically, the Petition alleged that in beginning in December 2022, there was a leak in the garage and the living room of the Property, resulting in mold and other related issues.",
+        "The tenant filed a petition for a downward rent adjustment because in August 2022, he received a text message from the property manager telling him that he had a balance due for rent for June, July, and August 2022. He called the property manager to ask why she had not notified him earlier, and she said that because of COVID, she did not want to bother him about back rent. He told her that he had not been properly notified, and she responded that the amount of rent was in the Lease, so she did not need to notify him.  The tenant is asking if the increase from $1,992.00 to $2,390.00 for June, July and August 2022 is allowed.",
+        "Petitioner requested a downward adjustment of rent on the basis of unlawful rent increase because (1) Respondent had incorrectly calculated Petitioner\u2019s Base Rent at the time that the Community Stabilization and Fair Rent Act (\u201cCSFRA\u201d) went into effect and (2) Respondent imposed unlawful rent increases above the lawful Annual General Adjustment (\u201cAGA\u201d) permitted under the CSFRA in 2017, 2018, 2020, 2021, and 2023. Petitioner also requested a downward adjustment of rent on the basis that Respondent had (1) failed to maintain the property in a habitable condition based on ten (10) separate conditions and (2) had improperly decreased Housing Services without a corresponding decrease in Rent based on the closure of the pool, the lack of an on-site property manager, because Petitioner had to change her parking space due to security issues, because Respondent failed to evict other tenants for nuisance behaviors, threatening safety, or committing crimes, and based on the closure of the laundry rooms.",
+        "Petitioner alleges that Respondent has not calculated her base rent correctly, that Respondent has unlawfully increased her rent, that Respondent has failed to maintain the property in a habitable condition, that Respondent has not provided sufficient housing services, and that Respondent has retaliated against Petitioner.",
+        "Tenant claims Landlord raised her rent illegally by exceeding the allowed increase, and by raising it twice in one 12-month period.  Tenant also claims Landlord failed to register the rental property with the City\u2019s Rent Stabilization Program, as well as failed to provide a proper notice of the rent increase.  Tenant claims the property has had issues with mold and water leaks. Tenant also states the water quality is bad and is therefore requesting compensation for illegal rent increases and violations of the Rent Stabilization program.",
+        "The tenant filed a hardship petition arguing that the landlord's rent increase, which included banked increases from 2020 and 2021, constituted undue hardship due to her low income, and the landlord's noncompliance with registration requirements.",
+        "Tenant alleges that the windows in their unit were not in good condition when they took occupancy. They were told by the landlord that they would be changed within 10 days, but were not changed until 89 days later. Tenant also alleges that the heating system was not working properly, and that they lived without adequate heat in their bedrooms and bathrooms for 130 days.",
+        "The petitioner complained about a series of historical defects in the property, including: a broken heater, broken lights, rodent infestation, mold in the bathroom and kitchen, and property damage that includes infiltration, leaky roof, water leak, and broken windows. They also complained about an unlawful rent increase.",
+        "Tenant Eric Allen Walker filed a petition for a downward adjustment of rent based on unlawful rent  related to the property located at 1725 Wright Avenue, Unit  , Mountain View  because the Respondent had failed to maintain a habitable premises due to a lack of hot water at the Property, in violation of the Community Stabilization and Fair Rent Act (\u201cCSFRA\u201d).",
+        "The tenants are requesting a downward rent adjustment based on unlawful rent collected because the landlord miscalculated their base rent by failing to include their rent concession. They also claim the landlord incorrectly calculated the base rent by excluding the utility fees and other monthly fees they pay separately.",
+        "The tenant filed a petition requesting a downward adjustment of rent due to water intrusion in the bedroom, carport dripping tar onto vehicles, and reduction of landscaping services without a corresponding rent decrease. The tenant argued that the landlord was responsible for its predecessor's unlawful retention of rent and improper collection of renter's insurance fees.",
+        "The Tenant filed a Petition for Undue Tenant Hardship because her income is below the area's median income, and the Landlord's rent increase is higher than the allowed percentage. The Landlord had been banking rent increases for two years before applying them.  The Tenant had been a resident since 2005 and paid all increases prior.",
+        "The Petitioner filed a Petition for relief from a 5% banked rent increase, which would increase the rent from $1,444.58 to $1,588.50. The Petitioner claimed that the increase would create an undue hardship due to their income level.",
+        "The tenant complained of a broken heater, broken lights, landlord entering the unit without notice, rats infestation, mold in the bathroom and kitchen, bad water quality and a water leak. The tenant also requested a rent reduction due to the presence of the aforementioned problems.",
+        "The petitioner alleged that she had experienced a rat infestation in the unit, which she reported to the landlord but the landlord did not take any steps to address the issue. The petitioner also stated that the landlord increased the rent 10% without justification, claiming that the rent increase was related to the \u201cnew paint\u201d in the apartment.",
+        "The tenant reported that there were several issues with the apartment such as water leak that pooled in the basement, broken windows, cracks and gaps, pest infestation, water heater and plumbing issues. The tenant reported that she attempted to resolve the issues with the landlord but the landlord did not take any steps to fix the issues and the tenant requested a rent rebate and/or rent reduction from the landlord.",
+        "Tenants filed a petition for downward adjustment of rent and rent refund based on failure to maintain a habitable premises due to a serious mold problem that was allowed to grow over an extended period of time.",
+        "The tenant filed a petition for an unlawful rent increase based on the landlord increasing the rent by 13.7% or 21.4% without registering the property under the Rent Stabilization Program or providing required notices. The tenant also complained that the landlord increased the rent twice within 12 months.",
+        "The Tenants have not been paid their full rent refund that was awarded in the prior decision, which was supposed to be paid in 8 monthly installments. They have not received the refund in full yet, the security deposit is still not fully paid, and they are still overcharged on utilities. They also did not know they would no longer be charged for pet rent in the new lease, and the rent increase doesn't seem to be correctly calculated. ",
+        "The tenants alleged that the landlord had unlawfully increased their rent in 2022 because they failed to take rent concessions into account when calculating the base rent. They also alleged that the landlord unlawfully collected a pet deposit, and that pet rent should be included in the base rent calculation. Finally, they alleged that the rent increase in 2023 was unlawful because of the incorrect calculation of the base rent in 2022.",
+        "Petitioner requested relief from the banked AGAs for 2020 and 2021 because he is a senior and has limited income.",
+        "Mr. Rivera filed a petition for rent adjustment because he was not required to pay utilities under the original rental agreement, but the new owners, Respondents, are asking him to pay utilities. He claims that Respondents have been charging him more than the original contract rent, and that the rent has been increased multiple times without proper registration. He believes records were lost during the ownership change and that Respondents are not giving him proper explanations regarding the utilities bills.",
+        "Tenant Delma Maciel filed two petitions for downward adjustment of rent (the \u201cPetitions\u201d) related to the property located 2120 W. Middlefield Road, Unit  , Mountain View (\u201cProperty\u201d). The Property is owned by TayCon Properties, which was represented in the proceedings by Ella Levin (\u201cRespondent\u201d).  The first Petition requested a downward adjustment of rent on the basis that (1) there was an error in the calculation of the Base Rent due to a concession in the lease, (2) the 2021 Annual General Adjustment (AGA) was improperly imposed, (3) Respondent began charging Petitioner for Utility Charges more than a year after Petitioner moved in, and (4) Respondent began charging Petition for renters\u2019 insurance. The second Petition request a downward adjustment of rent on the basis that Respondent had (1) failed to maintain the property in a habitable condition based on reglazing peeling off the sink, shower and bathtub, a leaking sink faucet and toilet, and overflowing of trash attracting vermin, and (2) improperly reduced Housing Services based on trash bin blocking Petitioner\u2019s assigned parking spot, the condition and unavailability of the laundry room, the unavailability/closure of the pool due to a broken gate, and a tenant portal for reporting maintenance issues that did not allow for communication between the property managers and tenants after the initial request."
+    ],
+    "ReasoningForDecision": {
+        "Unlawful Rent and Failure to maintain a habitable premises or make necessary repairs": {
+            "name_of_petition": "Unlawful Rent and Failure to maintain a habitable premises or make necessary repairs",
+            "problems_included": "Peeling bathroom surfaces, Running toilet and sink, Plumbing invoice of $850.00 for the plumber to service the toilet, Rodents and pests from trash bins, Laundry facilities, Pool closure",
+            "gravity_of_the_problems_1_10": 8
+        },
+        "RHC Petition# C22230037": {
+            "name_of_petition": "RHC Petition# C22230037",
+            "problems_included": "Hot water, continuing hot water issues",
+            "gravity_of_the_problems_1_10": 5
+        },
+        "Petition for Rent Reduction": {
+            "name_of_petition": "Petition for Rent Reduction",
+            "problems_included": "Rats infestation",
+            "gravity_of_the_problems_1_10": 8
+        },
+        "C22230037": {
+            "name_of_petition": "C22230037",
+            "problems_included": "mold bathroom",
+            "gravity_of_the_problems_1_10": 5
+        },
+        "Petition B": {
+            "name_of_petition": "Petition B",
+            "problems_included": "mold bathroom, mold living_room, broken_wiring, heater_broken, lights_broken, lock_broken",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Petition A": {
+            "name_of_petition": "Petition A",
+            "problems_included": "unlawful rent increase, unlawful rent demanded, mold, worn and damaged carpet with a hole, nonfunctioning electrical outlets, nonfunctioning stovetop burners and kitchen exhaust fan, dilapidated refrigerator, nonfunctioning smoke detectors, leaking shower, presence of rats, absence of heat, nonfunctioning kitchen lights.",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "Unlawful Rent Increase": {
+            "name_of_petition": "Unlawful Rent Increase",
+            "problems_included": "The respondent did not register the property with the Rent Stabilization Program until after the petition was filed, failing to comply with the CSFRA.",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "C22230030": {
+            "name_of_petition": "C22230030",
+            "problems_included": "mold in the garage and the likely presence in the living room, intrusion of water into the living room",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Petition A: Downward Rent Adjustment\u2014Unlawful Rent as Defined by the CSFRA": {
+            "name_of_petition": "Petition A: Downward Rent Adjustment\u2014Unlawful Rent as Defined by the CSFRA",
+            "problems_included": "Unlawful Rent Increase, Mold",
+            "gravity_of_the_problems_1_10": 8
+        },
+        "Petition Nos. C22230019 and C22230025": {
+            "name_of_petition": "Petition Nos. C22230019 and C22230025",
+            "problems_included": "Respondent did not properly roll back the rent for the Affected Unit to its level on October 19, 2015, as required by CSFRA Sections 1702(b)(1) and 1706(a), and did not properly refund Petitioner the amount of the unlawful rent collected due to the improper rent rollback. The weight of the evidence demonstrated that the premises rent for the Property on October 19, 2015 was $1,465.00 per month and Petitioner paid $65.00 for utilities for the period from September 20, 2015 through October 20, 2015, therefore the correct Base Rent for the Property was $1,530.00 per month.",
+            "gravity_of_the_problems_1_10": 9
+        },
+        "Petition A:  Downward Rent Adjustment\u2014Unlawful Rent": {
+            "name_of_petition": "Petition A:  Downward Rent Adjustment\u2014Unlawful Rent",
+            "problems_included": "Unlawful Rent Increase, Improper Rent Rollback, Improper Calculation of Base Rent",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "Unlawful Rent": {
+            "name_of_petition": "Unlawful Rent",
+            "problems_included": "Unlawful Rent Increase, Not Following Required Standards, Property Damage, Mold",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Tenant Petition C \u2013 Undue Tenant Hardship": {
+            "name_of_petition": "Tenant Petition C \u2013 Undue Tenant Hardship",
+            "problems_included": "inadequate household income, unlawful rent increase",
+            "gravity_of_the_problems_1_10": 8
+        },
+        "Failure to Maintain Habitable Premises": {
+            "name_of_petition": "Failure to Maintain Habitable Premises",
+            "problems_included": "mold bathroom, insufficient heating bedrooms and bathrooms",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Case # 22230012": {
+            "name_of_petition": "Case # 22230012",
+            "problems_included": "heater_broken, lights_broken, Rats, bathroom mold, kitchen mold, infiltration, leaky_roof, water_leak, window_broken",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "Petition A \u2013 Unlawful Rent Collected": {
+            "name_of_petition": "Petition A \u2013 Unlawful Rent Collected",
+            "problems_included": "infestation (Cockroaches), mold (bathroom, level_of_unusability, living_room), property damage (damage_on_ceiling, leaky_roof, water_leak), harassment (entering_unit_without_notice, verbal_threats), not following required standards (bad_water_quality, insufficient_heating, no_emergency_services)",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "Petition C22230051": {
+            "name_of_petition": "Petition C22230051",
+            "problems_included": "mold bathroom, water leak, insufficient heating, smoking around unit",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "Petition C for Tenant Hardship": {
+            "name_of_petition": "Petition C for Tenant Hardship",
+            "problems_included": "Mold bathroom, Inadequate Household Income,  NotFollowingRequiredStandards bad_water_quality, PropertyDamage water_leak,  Harassment denying_rent, AppliancesBroken heater_broken",
+            "gravity_of_the_problems_1_10": 5
+        },
+        "Petition for Downward Adjustment \u2014 Failure to Maintain Habitable Premises": {
+            "name_of_petition": "Petition for Downward Adjustment \u2014 Failure to Maintain Habitable Premises",
+            "problems_included": "basement flood and smell, broken windows, cracks and gaps, pest infestation, water heater, and other plumbing issues",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Petition No. C22330052": {
+            "name_of_petition": "Petition No. C22330052",
+            "problems_included": "Mold, living_room, bathroom",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Petition A - Unlawful Rent": {
+            "name_of_petition": "Petition A - Unlawful Rent",
+            "problems_included": "Mold bathroom, NotFollowingRequiredStandards bad_water_quality, NotFollowingRequiredStandards insufficient_heating, NotFollowingRequiredStandards smoking_around_unit, PropertyDamage damage_on_ceiling, PropertyDamage water_leak",
+            "gravity_of_the_problems_1_10": 5
+        },
+        "Compliance Petition": {
+            "name_of_petition": "Compliance Petition",
+            "problems_included": "Mold bathroom, Mold level_of_unusability, NotFollowingRequiredStandards bad_water_quality, NotFollowingRequiredStandards insufficient_heating, PropertyDamage damage_on_ceiling, PropertyDamage leaky_roof, PropertyDamage water_leak",
+            "gravity_of_the_problems_1_10": 10
+        },
+        "Downward Rent Adjustment": {
+            "name_of_petition": "Downward Rent Adjustment",
+            "problems_included": "Unlawful Rent Increase, Pet Rent",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Tenant Hardship": {
+            "name_of_petition": "Tenant Hardship",
+            "problems_included": "Senior Household, Inadequate Household Income",
+            "gravity_of_the_problems_1_10": 8
+        },
+        "Petition Requesting Downward Rent Adjustment": {
+            "name_of_petition": "Petition Requesting Downward Rent Adjustment",
+            "problems_included": "failure to register the Unit, assessment and collection of any sums over and above the maximum lawful rent for the Unit, assessment and collection of any sums over and above the maximum lawful rent for the Unit (including those sums collected by their predecessors in interest), not refunding the amount of rent collected by Respondents and their predecessors in interest between June 1, 2021 and the date of this decision which exceeded the $1,500 maximum lawful rent for the Unit, not refunding the total amount of utilities payments made up for the period of May 1, 2019 to April 13, 2023, not refunding the amount he paid to Respondents for rent and utilities payments above the lawful rent amount of $1,500 after April 13, 2023, not refunding an additional $350.00 to Mr. Rivera, the amount that they received as an increase to his security deposit in violation of CSFRA \u00a7 1706 subd. (c)",
+            "gravity_of_the_problems_1_10": 7
+        },
+        "Petition Nos. C23240003 and C23240004": {
+            "name_of_petition": "Petition Nos. C23240003 and C23240004",
+            "problems_included": "Reglazing peeling off the sink, shower and bathtub, a leaking sink faucet and toilet, and overflowing of trash attracting vermin, and improperly reduced Housing Services based on trash bin blocking Petitioner\u2019s assigned parking spot, the condition and unavailability of the laundry room, the unavailability/closure of the pool due to a broken gate, and a tenant portal for reporting maintenance issues that did not allow for communication between the property managers and tenants after the initial request.",
+            "gravity_of_the_problems_1_10": 10
+        }
+    }
+}

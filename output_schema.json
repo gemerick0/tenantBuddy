@@ -1,0 +1,90 @@
+{
+    "type": "object",
+    "properties": {
+        
+        "Infestation": {
+        "type": "object",
+        "properties": {
+            "Cockroaches": { "type": "number" },
+            "Rats": { "type": "number" },
+            "Bats": { "type": "number" },
+            "Flies": { "type": "number" },
+            "Woodworm": { "type": "number" },
+            "Moth": { "type": "number" },
+            "Bookworm": { "type": "number" },
+            "Termites": { "type": "number" }
+        }
+        },
+        "Unlawful rent increase": {
+        "type": "object",
+        "properties": {
+            "0-10%": { "type": "number" },
+            "10-20%": { "type": "number" },
+            "20-30%": { "type": "number" },
+            "30-40%": { "type": "number" },
+            "40-50%": { "type": "number" },
+            "50-60%": { "type": "number" },
+            "60-70%": { "type": "number" },
+            "70-80%": { "type": "number" },
+            "80-90%": { "type": "number" },
+            "90%+": { "type": "number" }
+        }
+        },
+        "Harassment": {
+        "type": "object",
+        "properties": {
+            "Humiliation": { "type": "number" },
+            "Sexual abuse": { "type": "number" },
+            "Verbal threats": { "type": "number" },
+            "Written threats": { "type": "number" },
+            "Discrimination": { "type": "number" },
+            "Racism": { "type": "number" },
+            "Xenophobia": { "type": "number" },
+            "Denying rent": { "type": "number" },
+            "Shutting utilities": { "type": "number" },
+            "Lockouts": { "type": "number" },
+            "Entering rental unit without notice": { "type": "number" }
+        }
+        },
+        "Property damage": {
+        "type": "object",
+        "properties": {
+            "Window broken": { "type": "number" },
+            "Water leak": { "type": "number" },
+            "Gas leak": { "type": "number" },
+            "Leaky roof": { "type": "number" },
+            "Damage on ceiling": { "type": "number" },
+            "Infiltration": { "type": "number" }
+        }
+        },
+        "Mold": {
+        "type": "object",
+        "properties": {
+            "Bathroom": { "type": "number" },
+            "Bedroom": { "type": "number" },
+            "Kitchen": { "type": "number" },
+            "Level of unusability": { "type": "number" },
+            "Living room": { "type": "number" }
+        }
+        },
+        "Appliances broken": {
+        "type": "object",
+        "properties": {
+            "Heater broken": { "type": "number" },
+            "Lights broken": { "type": "number" },
+            "Lock broken": { "type": "number" },
+            "A/C broken": { "type": "number" },
+            "Broken wiring": { "type": "number" }
+        }
+        },
+        "Not following required standards": {
+        "type": "object",
+        "properties": {
+            "Insufficient heating": { "type": "number" },
+            "Bad water quality": { "type": "number" },
+            "Smoking around the unit": { "type": "number" },
+            "Not present emergency-amendment services": { "type": "number" }
+        }
+        }
+    }
+}
