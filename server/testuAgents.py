@@ -1,4 +1,5 @@
  
+import pandas as pd
 from uagents import Agent, Bureau, Context, Model, Protocol
 import os
 from typing import Union
@@ -8,15 +9,16 @@ import json
 import google.generativeai as genai
 class Message(Model):
     message: str
-class Json(Model):
-    json: str
+"""class JsonOutput(Model):
+    jsonOutput: str"""
 proto = Protocol(name="proto", version="1.0")
-genai.configure(api_key=os.environ['API_KEY'])
+os.environ["API_KEY"] = "AIzaSyB1RnQt9FUwyQEGBLM-jR0tWVHt3nrYaCY"
+genai.configure(api_key=os.environ["API_KEY"])
 interpreter = Agent(name="sigmar", seed="interpreterOfMessages")
 responder = Agent(name="slaanesh", seed="responderOfMessages")
 dataviz = Agent(name="dataviz", seed="datavizOfInterpretations")
 list_of_messages = []
-@interpreter.on_message()
+@interpreter.on_message(model=Message)
 async def send_message(ctx: Context):
     ctx.logger.info(f"Received message from {ctx.sender}: {ctx.message}")
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
@@ -50,12 +52,12 @@ Return: [{'problem': 'mold', 'impact': 10}, {'problem': 'noise', 'impact': 5}]
     await ctx.add_to_context("list_of_messages", list_of_messages) 
     await ctx.send(responder.address, Message(message="If the issue is still not clear enough, please send me another message"))
 
-@responder.on_message()
+@responder.on_message(model=Message)
 async def send_message(ctx: Context):
     ctx.logger.info(f"Received message from {ctx.sender}: {ctx.message}")
     # send back to the user to assess more information (this is on the other code but we didn't have time to implement it in the uagents)
 
-@dataviz.on_message()
+@dataviz.on_message(model=Message)
 async def send_message(ctx: Context):
     ctx.logger.info(f"Received message from {ctx.sender}: {ctx.message}")
     prompt = """With this list of problems, identify the cases in output.json that fit the most with it, and add their names, and considering this, assess the average compensation one of these problems would give to the sender of the message.
@@ -83,7 +85,9 @@ Return: list[Similar_Cases], list[Problem]
         text = str(getattr(parts, "text"))
     except:
         ctx.logger.info("no text")
-    # send the response back to the user in the format of json (to integrate with frontend)
+    with open('output.json', 'w') as f:
+        dat = json.dumps(text)
+        f.write(dat)
 
 
 app = FastAPI()
@@ -100,16 +104,19 @@ model = genai.GenerativeModel(
     system_instruction = "Your name is Tenant Buddy and you are inside an app, your purpose is to hear tenants issues, make up to 4 questions to understand the issue. After you fully understood the issue, give them a summary of what is happening, recommend further actions and tell that you are generating a report from this conversation. Keep the messages short, asking one question at a time. This app is working with a non profit called community legal services.")
 
 
-outputFile = genai.upload_file('/home/gabriel/VS Code Projects/Hack for Social Change/output_schema.json')
+outputFile = json.dumps('/home/gabriel/VS Code Projects/Hack for Social Change/output_schema.json')
+
 chat = model.start_chat(
     history=[
         {"role": "user", "parts": "Hello!"},
         {"role": "model", "parts": "Great to meet you, my name is Tenant Buddy. What is the issue in your home?"},
         {"role": "user", "parts": "Please, after the conversation, if further actions is to report a complaint to the landlord, explain their possible rights. If the landlord actions seems to be unfair of unrightful, ask me to SHARE the conversation to a lawyer."},
         {"role": "user", "parts": "Please, use the following JSON as context. I want it to be what you find the problems characterisitics from. It works as a database that resumes the previous court cases we have knowledge of. The number for each problem is the compensation gotten for each case. Through each iteration, assess a case using the last 3 parameters 'SummaryOfComplaint', 'SummaryOfDecision', 'ReasoningForDecision'. After the 4th message question, send a concluding message that includes the word 'report'. A good example is 'Would you like to see the report of what you can get for a petition on this case?'"},
-        {"role": "user", "parts": outputFile}
     ]
 )
+
+chat.send_message(outputFile)
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
@@ -123,3 +130,12 @@ async def read_item(q: Union[str, None] = None):
     if 'report' in response.text:
         await dataviz.send_message(Message(message='Final Report'))
     return {"message": response.text}
+
+bureau = Bureau(port=8000, endpoint="http://localhost:8000/submit")
+
+bureau.add(responder)
+bureau.add(interpreter)
+bureau.add(dataviz)
+
+if __name__ == "__main__":
+    bureau.run()
