@@ -1,0 +1,29 @@
+{
+	"name": "my-app",
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/enhanced-img": "^0.4.1",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"@zerodevx/svelte-toast": "^0.9.6",
+		"autoprefixer": "^10.4.20",
+		"daisyui": "^4.12.14",
+		"svelte": "^5.0.0",
+		"tailwindcss": "^3.4.9",
+		"vite": "^5.0.3"
+	},
+	"dependencies": {
+		"clsx": "^2.1.1",
+		"lucide-svelte": "^0.456.0",
+		"svelte-radix": "^2.0.1",
+		"tailwind-merge": "^2.5.4",
+		"tailwind-variants": "^0.2.1"
+	}
+}
